@@ -169,5 +169,14 @@
         <p>&copy; 2026 Michael Samy. Handcrafted with passion.</p>
     </footer>
 
+
+    <script>
+    document.querySelectorAll('.navbar nav a').forEach(item => {
+        item.addEventListener('click', () => {
+            document.getElementById('menu-toggle').checked = false;
+        });
+    });
+</script>
+
 </body>
 </html>
