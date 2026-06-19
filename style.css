@@ -384,7 +384,9 @@ footer {
 
 /* إخفاء التشيك بوكس الافتراضي */
 .menu-toggle {
-    display: none;
+    display: none !important;
+    visibility: hidden;
+    position: absolute;
 }
 
 /* شكل زر الهامبرجر (مخفي في الشاشات الكبيرة) */
